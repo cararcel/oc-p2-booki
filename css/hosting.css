@@ -4,16 +4,13 @@
     justify-content: space-between;
 }
 
-.hosting-and-popular section {
+/****** hosting ***********/
+.hosting {
+    width: 65%;
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-}
-
-/****** hosting ***********/
-.hosting {
-    width: 65%;
 }
 
 .hosting-cards{
@@ -57,6 +54,10 @@
 /****** popular ***********/
 .popular {
     width: 32%;
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 .popular-title {
@@ -100,5 +101,43 @@
 }
 
 @media (max-width: 1024px){
+    .hosting{
+        width: 100%;
+    }
+    .popular {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px){
+    .popular {
+        order: 1;
+        border-radius: 0;
+        margin-top: 0;
+        padding: 30px 20px;
+    }
+
+    .popular-cards{
+        display: block;
+    }
+
+    .hosting{
+        order: 2;
+        background-color: white;
+        padding: 35px 20px;
+    }
+
+    .hosting-cards{
+        display: block;
+        margin-top: 15px;
+    }
+
+    .hosting-cards_card{
+        margin-bottom: 15px;
+    }
+
+    .hosting-plus{
+        margin-top: 0;
+    }
     
 }
