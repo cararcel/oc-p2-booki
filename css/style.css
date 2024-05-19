@@ -33,8 +33,8 @@ body {
     flex-direction: column;
 }
 
- /* the middle part will take the available space */
-.main-container main{
+/* the middle part will take the available space */
+.main-container main {
     flex-grow: 1;
 }
 
@@ -77,11 +77,11 @@ p {
     padding: 0;
 }
 
-.is-hidden-mobile{
+.is-hidden-mobile {
     display: inherit;
 }
 
-.is-visible-mobile{
+.is-visible-mobile {
     display: none;
 }
 
@@ -128,12 +128,12 @@ p {
         padding: 0;
     }
 
-/* to change word for icon osn the search bar */
-    .is-hidden-mobile{
+    /* to change word for icon osn the search bar */
+    .is-hidden-mobile {
         display: none;
     }
 
-    .is-visible-mobile{
+    .is-visible-mobile {
         display: inherit;
     }
 }

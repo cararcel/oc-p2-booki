@@ -61,7 +61,7 @@
     font-weight: 700;
 }
 
-.search-filters_input{
+.search-filters_input {
     position: absolute;
     opacity: 0;
 }
@@ -81,17 +81,17 @@
 /* To check the label that contain the checkbox*/
 .search-filters_label:has(.search-filters_input:checked) {
     background-color: #DEEBFF;
-} 
+}
 
 .search-filters_label:hover {
     background-color: #DEEBFF;
 }
 
-.search-filters_label-p{
+.search-filters_label-p {
     font-weight: 700;
 }
 
-.search-filters_group{
+.search-filters_group {
     font-size: 17px;
 }
 
@@ -103,7 +103,7 @@
     gap: 10px;
 }
 
-.search-info_icon{
+.search-info_icon {
     font-size: 10px;
     height: 24px;
     width: 24px;
@@ -121,7 +121,7 @@
         margin-bottom: 20px;
     }
 
-    .search-filters_group{
+    .search-filters_group {
         font-size: 16px;
     }
 }
@@ -130,11 +130,12 @@
     .search {
         margin: 30px 20px;
     }
-    .search-bar_icon{
+
+    .search-bar_icon {
         flex-shrink: 0;
     }
 
-    .search-bar_btn{
+    .search-bar_btn {
         position: relative;
         border-radius: 15px;
         z-index: 2;
@@ -153,19 +154,19 @@
         border-bottom-right-radius: 15px;
     }
 
-    .search-filters{
+    .search-filters {
         flex-wrap: wrap;
         gap: 10px;
     }
 
-    .search-filters_group{
+    .search-filters_group {
         font-size: 14px;
-         display: flex;
-         flex: 1 0 calc(50% - 10px);
-       
+        display: flex;
+        flex: 1 0 calc(50% - 10px);
+
     }
 
-    .search-filters_label{
+    .search-filters_label {
         flex-grow: 1;
         justify-content: start;
     }
@@ -176,7 +177,7 @@
         outline-color: var(--main-color);
     }
 
-    .search-info_icon{
+    .search-info_icon {
         flex-shrink: 0;
     }
 }
