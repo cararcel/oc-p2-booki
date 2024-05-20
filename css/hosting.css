@@ -1,5 +1,6 @@
 /****** hosting And popular ***********/
 .hosting-and-popular {
+    height: 614px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 40px;
@@ -13,18 +14,21 @@
     box-sizing: border-box;
 }
 
+.hosting-title {
+    margin-bottom: 30px;
+}
+
 .hosting-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    margin-top: 30px;
     gap: 30px
 }
 
 .hosting-cards_card {
     display: flex;
     flex-direction: column;
-    flex: 1 0 calc(33% - 30px);
+    height: 207.25px;
 }
 
 .hosting-cards_card-img {
@@ -39,6 +43,7 @@
 .hosting-cards_card-content {
     display: flex;
     flex-direction: column;
+    height: 64.25px;
     gap: 8px;
     padding: 4px 15px 15px 15px;
 }
@@ -103,7 +108,7 @@
     gap: 5px;
 }
 
-/* common */
+/****** Common ***********/
 .section-title {
     margin: 0;
     font-size: 22px;
