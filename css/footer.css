@@ -1,14 +1,15 @@
+/****** Footer ***********/
 .footer {
     background-color: var(--main-bg-color);
 
-    margin-top: 35px;
     display: flex;
     flex-direction: row;
-    padding: 20px;
+
 }
 
 .footer-column {
     flex: 1;
+    padding: 20px 0 20px 20px;
 }
 
 .footer-column_list {
