@@ -1,6 +1,5 @@
 /****** hosting And popular ***********/
 .hosting-and-popular {
-    height: 614px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 40px;
@@ -140,6 +139,7 @@
 @media (max-width: 1024px) {
     .hosting-and-popular {
         grid-template-columns: 1fr;
+        gap: 50px;
     }
 
     .popular-cards {
