@@ -27,24 +27,33 @@
 .hosting-cards_card {
     display: flex;
     flex-direction: column;
-    height: 207.25px;
+    height: 100%;
 }
 
 .hosting-cards_card-img {
-    border: 5px solid white;
     height: 114px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hosting-cards_card-img_wrapper {
+    border: 5px solid white;
+    min-height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    object-fit: cover;
-
+    overflow: hidden;
 }
 
 .hosting-cards_card-content {
     display: flex;
     flex-direction: column;
-    height: 64.25px;
     gap: 8px;
     padding: 4px 15px 15px 15px;
+    height: 100%;
+}
+
+.hosting-cards_card-content .card-title {
+    flex-grow: 1;
 }
 
 .card-rating {

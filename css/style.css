@@ -55,6 +55,11 @@ p {
     line-height: 18.78px;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 .is-hidden-mobile {
     display: inherit;
 }
