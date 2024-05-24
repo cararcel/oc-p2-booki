@@ -76,16 +76,16 @@
     font-weight: 700;
 }
 
-.search-filters_input {
+.search-filters_filter-input {
     position: absolute;
     opacity: 0;
 }
 
-.search-filters_label .fa-person {
+.search-filters_filter-label .fa-person {
     font-size: 22px;
 }
 
-.search-filters_label {
+.search-filters_filter-label {
     display: inline-flex;
     flex-direction: row;
     gap: 10px;
@@ -98,19 +98,19 @@
 }
 
 /* To check the label that contain the checkbox*/
-.search-filters_label:has(.search-filters_input:checked) {
+.search-filters_filter-label:has(.search-filters_filter-input:checked) {
     background-color: #DEEBFF;
 }
 
-.search-filters_label:hover {
+.search-filters_filter-label:hover {
     background-color: #DEEBFF;
 }
 
-.search-filters_label-p {
+.search-filters_filter-name {
     font-weight: 700;
 }
 
-.search-filters_group {
+.search-filters_filter {
     font-size: 17px;
 }
 
@@ -139,7 +139,7 @@
         margin-bottom: 20px;
     }
 
-    .search-filters_group {
+    .search-filters_filter {
         font-size: 16px;
     }
 }
@@ -177,14 +177,14 @@
         gap: 10px;
     }
 
-    .search-filters_group {
+    .search-filters_filter {
         font-size: 14px;
         display: flex;
         flex: 1 0 calc(50% - 10px);
 
     }
 
-    .search-filters_label {
+    .search-filters_filter-label {
         flex-grow: 1;
         justify-content: start;
     }

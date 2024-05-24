@@ -22,8 +22,6 @@
     padding-top: 14px;
     /* to have the link taking all the space in the li */
     display: block;
-
-    border-bottom: 0;
     /* to not have the height change when the border is set on hover */
     border-top: 2px solid transparent;
 }
@@ -54,14 +52,12 @@
 
     .header-nav_menu-item {
         flex: 1;
-
         text-align: center;
     }
 
     .header-nav_link {
         padding-bottom: 15px;
         padding-top: 0;
-
         border-top: 0;
         border-bottom: 2px solid var(--main-bg-color);
     }
