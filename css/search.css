@@ -99,11 +99,11 @@
 
 /* To check the label that contain the checkbox*/
 .search-filters_filter-label:has(.search-filters_filter-input:checked) {
-    background-color: #DEEBFF;
+    background-color: #deebff;
 }
 
 .search-filters_filter-label:hover {
-    background-color: #DEEBFF;
+    background-color: #deebff;
 }
 
 .search-filters_filter-name {
@@ -181,14 +181,12 @@
         font-size: 14px;
         display: flex;
         flex: 1 0 calc(50% - 10px);
-
     }
 
     .search-filters_filter-label {
         flex-grow: 1;
         justify-content: start;
     }
-
 
     /* leave or remove focus ? */
     .search-bar_input:focus-visible {
