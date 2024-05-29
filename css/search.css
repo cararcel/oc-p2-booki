@@ -76,7 +76,13 @@
     font-weight: 700;
 }
 
+.search-filters_filter {
+    font-size: 17px;
+}
+
 .search-filters_filter-input {
+    /*the element (box to b check) is removed from the normal document flow.
+    The element is positioned relative to its closest positioned ancestor */
     position: absolute;
     opacity: 0;
 }
@@ -108,10 +114,6 @@
 
 .search-filters_filter-name {
     font-weight: 700;
-}
-
-.search-filters_filter {
-    font-size: 17px;
 }
 
 .search-info {
@@ -175,25 +177,41 @@
     .search-filters {
         flex-wrap: wrap;
         gap: 10px;
+        /* gap: 7px;
+        padding: 0 13px; */
     }
 
     .search-filters_filter {
         font-size: 14px;
         display: flex;
+        /* grow,shrink,basis*/
         flex: 1 0 calc(50% - 10px);
     }
 
     .search-filters_filter-label {
         flex-grow: 1;
         justify-content: start;
-    }
-
-    /* leave or remove focus ? */
-    .search-bar_input:focus-visible {
-        outline-color: var(--main-color);
+        /* gap: 7px;
+        padding: 0 13px; */
     }
 
     .search-info_icon {
         flex-shrink: 0;
+    }
+}
+
+/* Add media query to respect the degin at 375px 
+and also respect the 2 columns on the min width at 320px.*/
+@media (max-width: 348px) {
+    .search-filters_filter-label {
+        gap: 10px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 343px) {
+    .search-filters_filter-label {
+        gap: 7px;
+        padding: 0 13px;
     }
 }
